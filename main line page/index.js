@@ -22,7 +22,7 @@ if (userName === 'darknight25') {
     
     
 }
-
+let password = prompt.password
 if (password === 'CoCo1435') {
     c.clearRect(0,0,canvas.width,canvas.height)
     c.fillStyle = 'white';

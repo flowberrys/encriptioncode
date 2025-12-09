@@ -23,13 +23,13 @@ if (userName === 'darknight25') {
     
 }
 
-if (password = 'CoCo1435') {
+if (password === 'CoCo1435') {
     c.clearRect(0,0,canvas.width,canvas.height)
     c.fillStyle = 'white';
     c.fillRect(0,0,canvas.width,canvas.height)
 } 
 
-if(userName = 'darknight' && password !== 'CoCo1435'){
+if(userName === 'darknight' && password !== 'CoCo1435'){
     c.clearRect(0,0,canvas.width,canvas.height)
     console.clear
     console.log('login failed try again')

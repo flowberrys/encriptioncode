@@ -11,7 +11,7 @@ c.fillRect(0,0,canvas.width,canvas.height)
 let userName = prompt("please enter user name")
 console.log("hello" + userName + "!")
 
-if (userName = 'darknight25') {
+if (userName === 'darknight25') {
     let password = prompt("admin enter password")
     console.log('admin acsess')
 } else {

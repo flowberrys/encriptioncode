@@ -14,7 +14,7 @@ if (userName = 'darknight25') {
     console.log('admin acsess')
 } else {
     console.log('no password needed')
-    c.fillStyle = 'cyan'
+    c.fillStyle = 'blue'
     c.fillRect(0,0,canvas.width,canvas.height)
     
     
@@ -22,7 +22,7 @@ if (userName = 'darknight25') {
 
 if (password = 'CoCo1435') {
     c.clearRect(0,0,canvas.width,canvas.height)
-    c.fillStyle = 'blue';
+    c.fillStyle = 'white';
     c.fillRect(0,0,canvas.width,canvas.height)
 } 
 
@@ -32,4 +32,7 @@ if(userName = 'darknight' && password !== 'CoCo1435'){
     console.log('login failed try again')
     let retry = prompt("retry password or user name for acsses")
     console.log("hello" + userName && password + "1")
+
+    document.getElementById('')
+
 }

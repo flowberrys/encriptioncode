@@ -13,14 +13,15 @@ const signOnTime = new Date();
 let userName = prompt("please enter user name")
 console.log("hello" + userName + "!")
 
-let password = prompt("admin password")
+let password = prompt("enter admin password")
 
-if (userName === "darknight25" && password === CoCo1435){
+if (userName === "darknight25" && password === "CoCo1435"){
     c.fillStyle = 'black'
     c.fillRect(0,0,canvas.width,canvas.height)
     console.log('welcome admin')
     console.log(password && userName && signOnTime)
 } else {
+    let password = prompt("hit cancel")
     c.fillStyle = 'blue'
     c.fillRect(0,0,canvas.width,canvas.height)
     console.log("welcome" + userName + "!" && signOnTime)

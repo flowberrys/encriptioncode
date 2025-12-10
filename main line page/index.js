@@ -21,7 +21,7 @@ if (userName === "darknight25" && password === "CoCo1435"){
     console.log('welcome admin')
     console.log(password && userName && signOnTime)
 } else {
-    let password = prompt("hit cancel")
+    let password = prompt("hit enter")
     c.fillStyle = 'blue'
     c.fillRect(0,0,canvas.width,canvas.height)
     console.log("welcome" + userName + "!" && signOnTime)

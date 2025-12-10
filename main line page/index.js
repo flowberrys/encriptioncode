@@ -29,4 +29,20 @@ if (userName === "darknight25" && password === "CoCo1435"){
     document.getElementById('iframe').innerHTML = moveTo(0,0) && width === 1024 && height === 576
     document.getElementById('title').innerHTML = "login_in_complete"
     document.getElementById('h1').innerHTML = "continue to next step"
+    c.clearRect(0,0,canvas.width,canvas.height)
+    const button = document.getElementById('button')
+    let button_pressed = false
+    button.addEventListener('click', function() {
+        button_pressed = true
+    })
+    if (button_pressed = true){
+        c.fillStyle = '#A9A9A9'
+    } else {
+        c.fillStyle = 'white'
+    }
+    function animate(){
+        
+        c.fillRect(0,0,canvas.width,canvas.height)
+
+    }
 }

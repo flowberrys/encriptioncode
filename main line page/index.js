@@ -25,4 +25,7 @@ if (userName === "darknight25" && password === "CoCo1435"){
     c.fillStyle = 'blue'
     c.fillRect(0,0,canvas.width,canvas.height)
     console.log("welcome" + userName + "!" && signOnTime)
+    document.getElementById('iframe').innerHTML = moveTo(0,0) && width === 1024 && height === 576
+    document.getElementById('title').innerHTML = "login_in_complete"
+    document.getElementById('h1').innerHTML = "continue to next step"
 }

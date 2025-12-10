@@ -13,7 +13,7 @@ const signOnTime = new Date();
 let userName = prompt("please enter user name")
 console.log("hello" + userName + "!")
 
-let password = prompt("CoCo1435")
+let password = prompt("admin password")
 
 if (userName === "darknight25" && password === CoCo1435){
     c.fillStyle = 'black'
